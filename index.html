@@ -1,0 +1,54 @@
+<!-- to trigger the boilerplate, enter ! on first line -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- getbootstrap.com -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <title>Voting DApp</title>
+</head>
+<body class="container">
+    <h1>Voting Platform</h1>
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Candidate</th>
+                    <th>Votes Earned</th>
+                    <th>Reward Token</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="candidate0name"></td>
+                    <td id="candidate0"></td>
+                  
+                </tr>
+                <tr>
+                    <td id="candidate1name"></td>
+                    <td id="candidate1"></td>
+                   
+                </tr>
+                <tr>
+                    <td id="candidate2name"></td>
+                    <td id="candidate2"></td>
+                    
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <!-- to access html toolbox, install html intellisense -->
+    <select id="Select1">
+        <option value="-1" title="select a candidate to vote" ></option>
+    </select>
+    <input id="Button1" type="button" class="btn btn-info" value="vote" />
+    Alternatively
+    <input id="Text1" type="text" />
+    <input id="Button1" type="button" class="btn btn-info" value="Assign Another to vote" />
+    <input id="Text1" type="text" />
+    <input id="Button1" type="button" class="btn btn-info" value="Rewarded Token" />
+</body>
+</html>
